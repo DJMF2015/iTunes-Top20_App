@@ -17,7 +17,7 @@ const SongList = (props) => {
 
         </div>
 
-        <td><img src ={song["im:image"][0]["label"]} alt="artist-image"></img></td>
+        <td><img src ={song["im:image"][0].label} ></img></td>
 
         <td><audio controls src ={song.link[1].attributes.href}>Preview</audio></td>
 
