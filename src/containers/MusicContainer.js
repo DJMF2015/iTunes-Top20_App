@@ -20,38 +20,21 @@ class MusicContainer extends Component {
 
   render() {
     return(
+      <Fragment>
+
+
         <div className="text">
-        <h1><center>iTunes UK Top 20</center></h1>
-        <SongList songs={this.state.songs}  />
-      </div>
+
+          <h1><center>iTunes UK Top 20</center></h1>
+          <p><center>Built using the iTunes Top20 api</center></p>
+
+          <SongList songs={this.state.songs}  />
+
+        </div>
+      </Fragment>
+
     )
   }
 
 }
 export default MusicContainer;
-
-
-
-
-
-
-
-
-
-// `shuffleArray(array){
-//        let currentIndex = array.length, temporaryValue, randomIndex;
-//
-//        while(0 !== currentIndex){
-//            randomIndex = Math.floor(Math.random()*currentIndex);
-//            currentIndex -= 1;
-//
-//
-//        temporaryValue = array[currentIndex];
-//        array[currentIndex] = array[randomIndex];
-//        array[randomIndex] = temporaryValue;
-//        }
-//        return array;
-//    }`
-
-
-// https://open.spotify.com/search/shadow%20of%20the%20beast
