@@ -4,7 +4,7 @@
 https://itunes.apple.com/gb/rss/topsongs/limit=20/json
 
 ## The application itself can ve viewed here:
-https://dashboard.heroku.com/apps/top20-itunes
+https://top20-itunes.herokuapp.com/
 
 
 
